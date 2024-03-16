@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to my form</title>
+    </head>
+    <body>
+        <h1>PLEASE FILL THIS FORM</h1>
+        <br>
+        <form>
+            <lable for="name">name:</lable>
+            <input type="text" id="name" name="name" placeholder="Enter name here">
+
+            <lable for="email">email:</lable>
+            <input type="text" id="email" name="email" placeholder="Enter email here">
+
+            <lable for="password">password</lable>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter password here"
+              aria-describedby="password-hint"
+            /><br>
+            <div id="password-hint">Must be 8 characters long</div>
+
+            <fieldset>
+                
+                <legend for="intrests">Inrests:</legend>
+                <input type="checkbox" id="music" name="Intrests" value="music">
+                <label for="music">music</label><br>
+
+                <input type="checkbox" id="sports" name="Intrests" value="sports">
+                <label for="sports">sports</label><br>
+
+                <input type="checkbox" id="reading" name="intrests" value="intrests">
+                <lable for="reading">reading</lable><br>
+            </fieldset>
+ 
+            <fieldset>
+                <legend for="Gender">Gender:</legend>
+                <input type="radio" id="male" name="Gender" value="male">
+                <label for="male">male</label>
+
+                <input type="radio" id="female" name="Gender" value="female">
+                <lable for="female">Female</lable>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </body>
+    <footer>The end</footer>
+</html>
